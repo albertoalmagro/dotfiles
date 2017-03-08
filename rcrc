@@ -1,0 +1,4 @@
+DOTFILES_DIRS=$HOME/sandbox/dotfiles
+EXCLUDES="helpful-tips README.md Brewfile install.sh setup"
+SYMLINK_DIRS="irbrc.d bundle backups undodir"
+TAGS="git ruby tmux"

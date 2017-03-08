@@ -1,0 +1,58 @@
+# NOTE: This is the global gitignore, not the gitignore for the dotfiles
+# repository!
+.DS_Store
+Thumbs.db
+
+# Vim swap files
+*.sw[po]
+# Vim persistent undo files
+*.un~
+# Created by _rake autocomplete function
+.rake_tasks
+
+# rbenv
+.rbenv-version
+
+# Zeus gem
+custom_plan.rb
+zeus.json
+
+# python byte-compiled files
+*.py[co]
+
+# Rubinius-compiled files
+*.rbc
+
+# From `bundle install --binstubs`
+/bin/stubs/
+.bundle
+
+# ctags file
+tags
+
+# Sometimes random files get created. Ignore them.
+'
+:w
+.foreman
+
+# https://github.com/sstephenson/rbenv-vars
+.rbenv-vars
+
+# Vim session files
+Session.vim
+
+# I keep committing single-numbered files somehow. Stop it.
+1
+2
+3
+4
+5
+6
+7
+8
+9
+]
+[
+
+# Created by squirrel.vim's :Squirrel command
+.squirrel

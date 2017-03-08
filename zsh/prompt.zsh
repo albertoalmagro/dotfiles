@@ -6,8 +6,8 @@
 typeset -AHg fg bg
 
 for color in {000..255}; do
-  fg[$color]="%{[38;5;${color}m%}"
-  bg[$color]="%{[48;5;${color}m%}"
+  fg[$color]="%{[38;5;${color}m%}"
+  bg[$color]="%{[48;5;${color}m%}"
 done
 
 ZSH_SPECTRUM_TEXT="What a neat color this is"
