@@ -1,0 +1,9 @@
+# .gitignore for .dotfiles
+
+# Vim
+# Keep these folders...
+!vim/backups/.gitkeep
+!vim/undodir/.gitkeep
+# ...but not their contents
+vim/backups/*
+vim/undodir/*
