@@ -30,11 +30,6 @@ zeus.json
 # ctags file
 tags
 
-# Sometimes random files get created. Ignore them.
-'
-:w
-.foreman
-
 # https://github.com/sstephenson/rbenv-vars
 .rbenv-vars
 
