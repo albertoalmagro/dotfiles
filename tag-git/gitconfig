@@ -1,7 +1,7 @@
 [user]
   # Try per-repo .gitconfig instead
   name = Alberto Almagro
-  email = alberto.almagro@rakuten.com
+  email = albertoalmagro@gmail.com
 [core]
   editor = vim
   whitespace = trailing-space,cr-at-eol
