@@ -6,6 +6,9 @@ tap 'homebrew/services'
 # rbenv
 brew 'rbenv'
 
+# redis
+brew 'redis'
+
 # The recommended way to use Heroku
 brew 'heroku'
 
