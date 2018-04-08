@@ -3,9 +3,6 @@
 # Lets us do `brew services restart postgres`, etc
 tap 'homebrew/services'
 
-# Old versions of some packages
-tap 'homebrew/versions'
-
 # The recommended way to use Heroku
 brew 'heroku'
 
@@ -31,6 +28,6 @@ if ENV.fetch("SHELL", "") != "/usr/local/bin/zsh"
 end
 
 # Cask: install binaries
-cask 'alfred'
-cask 'google-chrome'
+# cask 'alfred'
+# cask 'google-chrome'
 cask 'vlc'
