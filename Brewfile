@@ -3,6 +3,9 @@
 # Lets us do `brew services restart postgres`, etc
 tap 'homebrew/services'
 
+# rbenv
+brew 'rbenv'
+
 # The recommended way to use Heroku
 brew 'heroku'
 
