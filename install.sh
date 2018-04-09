@@ -38,6 +38,9 @@ fi
 echo "Installing Vim packages..."
 vim +PlugInstall +qa
 
+# Symlink sublime
+ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
+
 if is_osx; then
   echo
   echo "If you like what you see in system/osx-settings, run ./system/osx-settings"
